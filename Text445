@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","TELEPORT","ANTI","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","AUTO","TELEPORT","ANTI","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -813,11 +813,11 @@ local menuData = {
         "PLAYER NAME",
         "TP TO PLAYER",
     },
-    ["OP"] = {
-        "GODMODE",
-        "SELF REVIVE",
-        "1 = 20",
-        "LAG SERVER (NO LOBBY)",
+    ["AUTO"] = {
+        "AUTO BLACK FLASH (Gojo)",
+        "AUTO BLACK FLASH (Itadori)",
+        "AUTO BLACK FLASH (Yuta)",
+        "AUTO BLACK FLASH (Mahito)(BETA)",
         "INSTANT REVIVE",
         "EXTEND BREAK",
         "SPEED BOOST",    
@@ -918,14 +918,14 @@ if topTitle then
         if opt == "RESET STATS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Reset-speed-jumpPower-y-gravedad-/refs/heads/main/Reset.lua"))()
 
-        elseif opt == "GODMODE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text347/refs/heads/main/Text347.lua"))()
+        elseif opt == "AUTO BLACK FLASH (Itadori)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text446/refs/heads/main/Text446.lua"))()
             
         elseif opt == "" then
             loadstring("getgenv().HIGHLIGHT_ME = not getgenv().HIGHLIGHT_ME")()
                             
-        elseif opt == "ESP TAGGER AND RUNNER" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text437/refs/heads/main/Text437.lua"))()
+        elseif opt == "AUTO BLACK FLASH (Gojo" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text447/refs/heads/main/Text447.lua"))()
                             
         elseif opt == "ESP NAME" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text438/refs/heads/main/Text438.lua"))()
