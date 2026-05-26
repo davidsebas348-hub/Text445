@@ -927,11 +927,11 @@ if topTitle then
         elseif opt == "AUTO BLACK FLASH (Gojo" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text447/refs/heads/main/Text447.lua"))()
                             
-        elseif opt == "ESP NAME" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text438/refs/heads/main/Text438.lua"))()
+        elseif opt == "AUTO BLACK FLASH (Yuta" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text448/refs/heads/main/Text448.lua"))()
                             
-        elseif opt == "ESP DISTANCE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text439/refs/heads/main/Text439.lua"))()
+        elseif opt == "AUTO BLACK FLASH (Mahito)(BETA)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text449/refs/heads/main/Text449.lua"))()
 
         elseif opt == "ANTI LAVA" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text440/refs/heads/main/Text440.lua"))()
