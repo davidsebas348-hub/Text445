@@ -818,9 +818,10 @@ local menuData = {
         "AUTO BLACK FLASH (Itadori)",
         "AUTO BLACK FLASH (Yuta)",
         "AUTO BLACK FLASH (Mahito)(BETA)",
-        "INSTANT REVIVE",
-        "EXTEND BREAK",
-        "SPEED BOOST",    
+        "AUTO SPECIAL/VARIANTE (BUG)",
+        "AUTO DOMINIO 0.2",
+        "AUTO AIM (SOLO CON 0.2 ACTIVO)",
+        "AUTO REVERSAL RED MAX (ULT)",    
         "SHOW PANELS",
     },
     ["AUTO FARM"] = {
@@ -933,8 +934,8 @@ if topTitle then
         elseif opt == "AUTO BLACK FLASH (Mahito)(BETA)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text449/refs/heads/main/Text449.lua"))()
 
-        elseif opt == "ANTI LAVA" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text440/refs/heads/main/Text440.lua"))()
+        elseif opt == "AUTO SPECIAL/VARIANTE (BUG)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text450/refs/heads/main/Text450.lua"))()
                             
         elseif opt == "GET THE TOOL SPORTS DRINK" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text345/refs/heads/main/Text345.lua"))()
