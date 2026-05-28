@@ -937,11 +937,11 @@ if topTitle then
         elseif opt == "AUTO SPECIAL/VARIANTE (BUG)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text450/refs/heads/main/Text450.lua"))()
                             
-        elseif opt == "GET THE TOOL SPORTS DRINK" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text345/refs/heads/main/Text345.lua"))()
+        elseif opt == "AUTO AIM (SOLO CON 0.2 ACTIVO)" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451.lua/refs/heads/main/Text451.lua"))()
                             
-        elseif opt == "GET THE TOOL TRAP" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text344/refs/heads/main/Text344.lua"))()
+        elseif opt == "AUTO DOMINIO 0.2" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451/refs/heads/main/Text451.lua"))()
 
         elseif opt == "INVISIBLE" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text427/refs/heads/main/Text427.lua"))()
