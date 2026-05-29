@@ -37,7 +37,8 @@ local doubleButtons = {
 local topTitles = {
     ["AUTO SPECIAL/VARIANTE (BUG)"] = "Gojo",
     ["AUTO BLACK FLASH (Gojo)"] = "BLACK FLASH",
-    ["AUTO GANAR EN LA HABILIDAD Juicio Final"] = "Higuruma",
+    ["AUTO GANAR EN LA HABILIDAD Juicio Final"] = "GANAR",
+    ["SPEED"] = "PLAYER",
 }
 
 -- poner títulos abajo de tal botón
@@ -826,6 +827,7 @@ local menuData = {
         "AUTO AIM (SOLO CON 0.2 ACTIVO)",
         "AUTO REVERSAL RED MAX (ULT)",    
         "AUTO GANAR EN LA HABILIDAD Juicio Final",
+        "AUTO GANAR EN LOS CHOQUES DE RAYOS",
     },
     ["AUTO FARM"] = {
         "AUTO FARM ESCAPES",
@@ -955,8 +957,8 @@ if topTitle then
         elseif opt == "DESYNC" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text428/refs/heads/main/Text428.lua"))()
 
-        elseif opt == "GET THE TOOL GHOST" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text220/refs/heads/main/Text220.lua"))()
+        elseif opt == "AUTO GANAR EN LOS CHOQUES DE RAYOS" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text454/refs/heads/main/Text454.lua"))()
                             
         elseif opt == "AUTO FARM ESCAPES" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text340/main/Text340.lua"))()
