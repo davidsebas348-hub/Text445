@@ -35,7 +35,7 @@ local doubleButtons = {
 
 -- poner título arriba de tal botón 
 local topTitles = {
-    ["INSTANT REVIVE"] = "FREE GAMEPASS",
+    ["AUTO SPECIAL/VARAINTE (BUG)"] = "GOJO",
     ["SPEED"] = "LOCALPLAYER",
 }
 
@@ -759,7 +759,7 @@ end
 local scrollConfig = {
     ["MAIN"] = true,
     ["ESP"] = true,
-    ["TOOL"] = true,
+    ["AUTO"] = true,
     ["SHERIFF"] = true,
     ["MURDERER"] = true,
     ["TELEPORT"] = true,
@@ -822,7 +822,7 @@ local menuData = {
         "AUTO DOMINIO 0.2",
         "AUTO AIM (SOLO CON 0.2 ACTIVO)",
         "AUTO REVERSAL RED MAX (ULT)",    
-        "SHOW PANELS",
+        "AUTO ESCAPAR DE LA HABILIDAD ONESHOOT",
     },
     ["AUTO FARM"] = {
         "AUTO FARM ESCAPES",
@@ -943,8 +943,8 @@ if topTitle then
         elseif opt == "AUTO DOMINIO 0.2" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451/refs/heads/main/Text451.lua"))()
 
-        elseif opt == "INVISIBLE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text427/refs/heads/main/Text427.lua"))()
+        elseif opt == "AUTO ESCAPAR DE LA HABILIDAD ONESHOOT" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text452/refs/heads/main/Text452.lua"))()
                             
         elseif opt == "GET THE TOOL SPAWN DECOY" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text357/refs/heads/main/Text357.lua"))()
