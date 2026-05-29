@@ -36,7 +36,8 @@ local doubleButtons = {
 -- poner título arriba de tal botón 
 local topTitles = {
     ["AUTO SPECIAL/VARAINTE (BUG)"] = "GOJO",
-    ["SPEED"] = "LOCALPLAYER",
+    ["AUTO BLACK FLASH (Gojo)"] = "BLACK FLASH",
+    ["AUTO UPPERCUT"] = "M1",
 }
 
 -- poner títulos abajo de tal botón
@@ -814,6 +815,8 @@ local menuData = {
         "TP TO PLAYER",
     },
     ["AUTO"] = {
+        "AUTO UPPERCUT",
+        "AUTO DOWN",
         "AUTO BLACK FLASH (Gojo)",
         "AUTO BLACK FLASH (Itadori)",
         "AUTO BLACK FLASH (Yuta)",
@@ -822,7 +825,7 @@ local menuData = {
         "AUTO DOMINIO 0.2",
         "AUTO AIM (SOLO CON 0.2 ACTIVO)",
         "AUTO REVERSAL RED MAX (ULT)",    
-        "AUTO ESCAPAR DE LA HABILIDAD ONESHOOT",
+        "AUTO ESCAPAR/NO DEJAR ESCAPAR DE LA HABILIDAD ONESHOOT",
     },
     ["AUTO FARM"] = {
         "AUTO FARM ESCAPES",
@@ -943,11 +946,11 @@ if topTitle then
         elseif opt == "AUTO DOMINIO 0.2" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text451/refs/heads/main/Text451.lua"))()
 
-        elseif opt == "AUTO ESCAPAR DE LA HABILIDAD ONESHOOT" then
+        elseif opt == "AUTO ESCAPAR/NO DEJAR ESCAPAR DE LA HABILIDAD ONESHOOT" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text452/refs/heads/main/Text452.lua"))()
                             
-        elseif opt == "GET THE TOOL SPAWN DECOY" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text357/refs/heads/main/Text357.lua"))()
+        elseif opt == "AUTO UPPERCUT" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text453/refs/heads/main/Text453.lua"))()
                             
         elseif opt == "DESYNC" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text428/refs/heads/main/Text428.lua"))()
