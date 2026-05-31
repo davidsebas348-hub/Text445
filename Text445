@@ -774,7 +774,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","AUTO","TELEPORT","ANTI","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","COMBAT","ANTI","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -789,9 +789,10 @@ local menuData = {
     "FLY",
     },
     ["ESP"] = {
-        "ESP TAGGER AND RUNNER", 
-        "ESP DISTANCE",
+        "ESP A JUGADORES", 
+        "ESP VIDA",
         "ESP NAME",
+        "ESP OBJETOS",
     },
     ["ANTI"] = {
         "ANTI LAVA",
@@ -815,7 +816,7 @@ local menuData = {
         "PLAYER NAME",
         "TP TO PLAYER",
     },
-    ["AUTO"] = {
+    ["COMBAT"] = {
         "AUTO UPPERCUT",
         "AUTO DOWN",
         "AUTO BLACK FLASH (Gojo)",
@@ -963,8 +964,8 @@ if topTitle then
         elseif opt == "AUTO REVERSAL RED MAX (ULT)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text455/refs/heads/main/Text455.lua"))()
 
-        elseif opt == "LAG SERVER (NO LOBBY)" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text355/refs/heads/main/Text355.lua"))()
+        elseif opt == "ESP A JUGADORES" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text456/refs/heads/main/Text456.lua"))()
                             
         elseif opt == "ANTI TRAPS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text348/refs/heads/main/Text348.lua"))()
