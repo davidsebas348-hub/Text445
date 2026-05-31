@@ -761,7 +761,7 @@ end
 local scrollConfig = {
     ["MAIN"] = true,
     ["ESP"] = true,
-    ["AUTO"] = true,
+    ["COMBAT"] = true,
     ["SHERIFF"] = true,
     ["MURDERER"] = true,
     ["TELEPORT"] = true,
@@ -791,7 +791,7 @@ local menuData = {
     ["ESP"] = {
         "ESP A JUGADORES", 
         "ESP VIDA",
-        "ESP NAME",
+        "ESP NOMBRE",
         "ESP OBJETOS",
     },
     ["ANTI"] = {
@@ -967,8 +967,8 @@ if topTitle then
         elseif opt == "ESP A JUGADORES" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text456/refs/heads/main/Text456.lua"))()
                             
-        elseif opt == "ANTI TRAPS" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text348/refs/heads/main/Text348.lua"))()
+        elseif opt == "ESP NOMBRE" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text457/refs/heads/main/Text457.lua"))()
                             
         elseif opt == "SPAWN TRAP" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text353/refs/heads/main/Text353.lua"))()
