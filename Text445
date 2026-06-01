@@ -777,8 +777,6 @@ local scrollConfig = {
 local menuOrder = {"MAIN","ESP","COMBAT","ANTI","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
-    "DESYNC",
-    "INVISIBLE",
     "SPEED",
     "JUMPPOWER",  
     "GRAVITY",
@@ -970,8 +968,8 @@ if topTitle then
         elseif opt == "ESP NOMBRE" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text457/refs/heads/main/Text457.lua"))()
                             
-        elseif opt == "SPAWN TRAP" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text353/refs/heads/main/Text353.lua"))()
+        elseif opt == "ESP VIDA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text458/refs/heads/main/Text458.lua"))()
 
         elseif opt == "AUTO SPAWN TRAP" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text354/refs/heads/main/Text354.lua"))()
