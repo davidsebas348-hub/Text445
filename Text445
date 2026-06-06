@@ -38,7 +38,7 @@ local topTitles = {
     ["AUTO SPECIAL/VARIANTE (BUG)"] = "Gojo",
     ["AUTO BLACK FLASH (Gojo)"] = "BLACK FLASH",
     ["AUTO GANAR EN LA HABILIDAD Juicio Final"] = "GANAR",
-    ["SPEED"] = "PLAYER",
+    ["SPED"] = "PLAYER",
 }
 
 -- poner títulos abajo de tal botón
@@ -759,7 +759,7 @@ end
 -- SCROLL POR SUBMENU
 -- ======================
 local scrollConfig = {
-    ["MAIN"] = true,
+    ["PLAYER"] = true,
     ["ESP"] = true,
     ["COMBAT"] = true,
     ["SHERIFF"] = true,
@@ -774,9 +774,9 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","COMBAT","ANTI","FPS","YOUTUBE"}
+local menuOrder = {"PLAYER","ESP","COMBAT","FPS","YOUTUBE"}
 local menuData = {
-    ["MAIN"] = {
+    ["PLAYER"] = {
     "SPEED",
     "JUMPPOWER",  
     "GRAVITY",
@@ -790,7 +790,6 @@ local menuData = {
         "ESP A JUGADORES", 
         "ESP VIDA",
         "ESP NOMBRE",
-        "ESP OBJETOS",
     },
     ["ANTI"] = {
         "ANTI LAVA",
@@ -816,7 +815,6 @@ local menuData = {
     },
     ["COMBAT"] = {
         "AUTO UPPERCUT",
-        "AUTO DOWN",
         "AUTO BLACK FLASH (Gojo)",
         "AUTO BLACK FLASH (Itadori)",
         "AUTO BLACK FLASH (Yuta)",
