@@ -396,7 +396,7 @@ end
 local title = Instance.new("TextLabel", mainFrame)
 title.Size = UDim2.new(1,0,0,50)
 title.BackgroundColor3 = Color3.fromRGB(0,0,0)
-title.Text = "SBS HUB | SUPER TAG"
+title.Text = "SBS HUB | Jujutsu Shenanigans"
 title.TextColor3 = Color3.fromRGB(255,255,255)
 title.Font = Enum.Font.GothamBold
 title.TextScaled = true
@@ -781,7 +781,6 @@ local menuData = {
     "JUMPPOWER",  
     "GRAVITY",
     "RESET STATS",
-    "NOCLIP",
     "INFINITI JUMP",
     "FLY SPEED",
     "FLY",
