@@ -926,10 +926,10 @@ if topTitle then
         elseif opt == "" then
             loadstring("getgenv().HIGHLIGHT_ME = not getgenv().HIGHLIGHT_ME")()
                             
-        elseif opt == "AUTO BLACK FLASH (Gojo" then
+        elseif opt == "AUTO BLACK FLASH (Gojo)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text447/refs/heads/main/Text447.lua"))()
                             
-        elseif opt == "AUTO BLACK FLASH (Yuta" then
+        elseif opt == "AUTO BLACK FLASH (Yuta)" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text448/refs/heads/main/Text448.lua"))()
                             
         elseif opt == "AUTO BLACK FLASH (Mahito)(BETA)" then
